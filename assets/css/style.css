@@ -1,0 +1,73 @@
+.container {
+    background-image: url("../images/beanstalk.png");
+    width: 100%;
+}
+
+#crystalsBanner {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #cb6f32;
+    color: #e8e8e8;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#instructions {
+    background-color: #fbe6cf;
+    color: green;
+    font-size: 14px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#random-number {
+    background-color: chartreuse;
+    color: magenta;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#win-loss-record {
+    background-color: aqua;
+    color: magenta;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 15px;
+}
+
+#total-score-banner{
+    background-color:#20a495;
+    color: #e8e8e8;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+#score-tracker {
+    background-color: #20a495;
+    color: #e8e8e8;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}

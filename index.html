@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+        <div class="container">
+            <div class ="row">
+                <div class = "col-md-6" id = "crystalsBanner">
+                    Crystals Collector!
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8" id="instructions">
+                    <p>You will be given a random number at the start of the game</p>
+                    <br>
+                    <p>There are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+                    <br>
+                    <p>You win the game by matching your total score to the random number.  You lost the game if your total score goes above the random number.</p>
+                    <br>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <br>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id = "random-number">
+                    Random Number Test
+                </div>
+                <div class = "col-md-2" id = "win-loss-record">
+                    Wins and Losses
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-2" id = "red-crystal">
+                    <img src="assets/images/redcrystal.png">
+                </div>
+                <div class = "col-md-2" id = "blue-crystal">
+                    <img src="assets/images/bluecrystal.jpg">
+                </div>
+                <div class="col-md-2" id = "green-crystal">
+                    <img src="assets/images/greencrystal.png">
+                </div>
+                <div class="col-md-2" id="purple-crystal">
+                    <img src="assets/images/purplecrystal.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id ="total-score-banner">
+                    Your total score is: 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" id = "score-tracker">
+                    Blank
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
